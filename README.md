@@ -1,0 +1,1 @@
+# Homepage of sztorimondo.hu

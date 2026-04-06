@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang='hu'>
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-BVYVVGVRZT"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-BVYVVGVRZT');
+	</script>
+
+	<title>Sztorimondó kiadási program</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta property="og:url" content="https://konyvkiadasa.hu/">
+  <meta property="og:site_name" content="Könyvkiadása.hu">
+  <meta property="og:title" content="Sztorimondó kiadási program">
+  <meta property="og:description" content="A Sztorimondó könyvkiadási program az elsőkönyveseknek és a rétegkönyveknek ad lehetőséget.">
+  <meta property="og:locale" content="hu_hu">
+  <meta property="og:type" content="website">
+
+	<link rel="shortcut icon" type="image/x-icon" href="../assets/favicon.ico"> 
+
+	<link href="../assets/bootstrap.min.css" rel="stylesheet">
+
+	<style>
+		@font-face {
+			font-family: 'Amarante';
+			src: url('../assets/Amarante-Regular.ttf') format('truetype');
+		}
+		@font-face {
+			font-family: 'Limelight';
+			src: url('../assets/Limelight-Regular.ttf') format('truetype');
+		}
+		body {
+			font-family: 'Amarante', sans-serif;
+		}
+
+	</style>
+</head>
+
+<body class="container-md col-md-6">
+
+<!-- Carousel Top -->
+<div id="boritok" class="carousel slide mx-auto" data-bs-ride="carousel" style="width: 200px; height: 338px;">
+
+  <!-- Indicators/dots -->
+<!--
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#boritok" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#boritok" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#boritok" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#boritok" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#boritok" data-bs-slide-to="4"></button>
+    <button type="button" data-bs-target="#boritok" data-bs-slide-to="5"></button>
+    <button type="button" data-bs-target="#boritok" data-bs-slide-to="6"></button>
+    <button type="button" data-bs-target="#boritok" data-bs-slide-to="7"></button>
+    <button type="button" data-bs-target="#boritok" data-bs-slide-to="8"></button>
+  </div>
+-->
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="../assets/Kiss-Laszlo_A-pilota--small.webp" alt="Kiss László: A pilóta (Könyv Guru, 2026) borítókép" class="d-block w-100" >
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="../assets/Banszegi-Katalin_Vietnam--small.webp" alt="Bánszegi Katalin: Vietnám (Ad Librum, 2024) borítókép" class="d-block w-100">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="../assets/Szokolszky-Agnes_Igy-muzsikaltunk--small.webp" alt="Szokolszky Ágnes: Így muzsikáltunk. Déki Lakatos Sándor cigányprímás élet- és családtörténete (Személyes Történelem, 2023) borítókép" class="d-block w-100">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="../assets/Garay-Zsuzsanna_A-kislany-es-a-madarijeszto--small.webp" alt="Garay Zsuzsanna: A kislány és a madárijesztő (Könyv Guru, 2025) boritókép" class="d-block w-100">
+    </div>
+</div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#boritok" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#boritok" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+<h1 class='text-success'>Sztorimondó könyvkiadás</h1>
+
+<p>A <span class='text-success' style='font-family: Limelight, sans-serif'>Sztorimondó</span> könyvkiadási program az <strong>elsőkönyveseknek</strong> és a <strong>rétegkönyveknek</strong> ad lehetőséget. Mivel a várható eladások nem elég magasak, a könyvkiadók gyakran nem foglalkoznak az olyan szerzőkkel, akiknek még nincs olvasótáboruk, és olyan könyvekkel, amelyek a témájuk folytán kis célközönséggel rendelkeznek.</p>
+
+<!-- A program jellemzői -->
+<div id="jellemzok">
+
+<h2 class='text-success'>A Sztorimondó könyvkiadási program jellemzői</h2>
+
+<p class="">
+	<strong>1. Felvállalt kiadói kiadás.</strong> Nem magánkiadás.
+	<button class="btn btn-sm btn-outline-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseKiadok" aria-expanded="false" aria-controls="collapseKiadok">Bővebben</button>
+</p>
+<div class="collapse" id="collapseKiadok">
+<!--
+	<div class="card card-body">
+-->
+	<div class="mb-3">
+	A <span class='text-success' style='font-family: Limelight'>Sztorimondó</span> program mögött valódi kiadók állnak, amelyek az olvasókért versenyeznek, nem a szerzők hiúságáért. Csak olyan könyveket jelentetnek meg, amelyek - kellő szerkesztéssel és vonzó kivitelben - elérik a könyvesbolti átlagszínvonalat. A regények, novelláskötetek, mesekönyveket a <a href='https://konyv.guru/konyv-guru-kiado-konyvei/' target='_blank' class='text-success' style='font-family: Limelight'>Könyv Guru Kiadó</a>, a tényirodalmat az <a href='https://adlibrum.hu/' target='_blank' class='text-success' style='font-family: Limelight'>Ad Librum Kiadó</a>, a memoárokat pedig a <a href='https://szemelyestortenelem.hu/konyveink/' target='_blank' class='text-success' style='font-family: Limelight'>Személyes Történelem Kiadó</a> adja ki.
+	</div>
+</div>
+
+<p class="">
+	<strong>2. Professzionális kiadói folyamat.</strong> Valódi irodalmi szerkesztővel, igazi tördelővel és élvonalbeli nyomdákkal.
+	<button class="btn btn-sm btn-outline-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSzakmaisag" aria-expanded="false" aria-controls="collapseSzakmaisag">Bővebben</button>
+</p>
+<div class="collapse" id="collapseSzakmaisag">
+	<div class="mb-3">
+		A szerkesztés külön szakma, aminek csak bázisa az irodalom szakos diploma. Mind a főszerkesztőnk, mind az adott kézirattal megbízott szerkesztők jelentős szakmai gyakorlattal rendelkeznek. A tördelés követi a magyar tipográfiai hagyományt (és persze nem Wordben készül). Olyan grafikusokat bízunk meg, akik az adott műfajban (pl. fantasy) már rendelkeznek portfólióval. A munkáinkra kiválasztott nyomdák óriási referenciával rendelkeznek (és a szerzők megnézhetik a könyvük nyomását). A nyomdai előkészítés koordinációját és a könyvészeti feladatokat (ISBN, kötelespéldányok a könyvtáraknak, terjesztői kiajánlások) szabványos, évtizedes kiadói tapasztalatra alapozott munkafolyamatokkal végezzük.
+	</div>
+</div>
+
+<!-- Terjesztés -->
+<p class="">
+	<strong>3. Széles körű terjesztés.</strong> 
+	A könyveink terjesztése teljes körű (Libri, Líra, Bookline stb.).
+	<button class="btn btn-sm btn-outline-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTerjesztes" aria-expanded="false" aria-controls="collapseTerjesztes">Bővebben</button>
+</p>
+
+<div class="collapse" id="collapseTerjesztes">
+  <div class="mb-3">
+  A nyomtatott könyveket az összes fontos helyre eljuttatjuk:
+	<ul>
+		<li>a Libri bolthálózatába (Magyarország legnagyobb könyvesboltlánca);</li>
+		<li>a Líra bolthálózatába, beleértve a Líra-Móra boltokat is (a másik könyvkereskedelmi lánc);</li>
+		<li>a könyvtárellátóba (KELLO);</li>
+		<li>a Bookline, Book24, Lira.hu és Libri.hu online boltokba;</li>
+		<li>a kiadói webboltba (Könyvesbolt.Online);</li>
+		<li>kivisszük a kiadói rendezvényekre (Könyvfesztivál, Ünnepi Könyvhét, könyvbemutatók);</li>
+		<li>a Libri, Líra, a KELLO és a Book24 egyben nagykereskedő is, így a könyveink a kisebb webboltokba, független könyvesboltokba és a határon túlra is eljutnak;</li>
+		<li>emellett kiszolgáljuk a kiadótól közvetlenül vásárló könyvkereskedőket is.</li>
+	</ul>
+	A könyvét e-book változatban is kiadjuk és minden elérhető online könyvesboltban terjesztjük: Ekonyv.hu, Bookline.hu, Libri.hu, Lira.hu, Multimediaplaza.com, Google Play Books (Android telefonokon könnyen elérhető), iBookstore (Apple iTunes), ipubs.hu, dibook.hu, Kobo, e-letoltes, E-sentral.com, 24symbols.com, allromanceebooks.com, Barnes & Noble, Tolino, Elefant.ro és még tucatnyi más boltban a világ minden részén.
+  </div>
+</div>
+
+<!-- Szerzői hozzájárulás -->
+
+<p class="" id="szerzoihozzajarulas">
+	<strong>4. Szerzői hozzájárulással.</strong> 
+		Örömmel adjuk ki a még kipróbálatlan szerzők írásait és a szűkebb célközönségű rétegkönyveket, azonban nem tudjuk ezt megtenni előzetes <strong>anyagi támogatás</strong> nélkül.
+		<button class="btn btn-sm btn-outline-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHozzajarulas" aria-expanded="false" aria-controls="collapseHozzajarulas">Bővebben</button>
+</p>
+
+<div class="collapse" id="collapseHozzajarulas">
+  <div class="mb-3">
+
+	<table class="table table-striped">
+	<caption>Akár elsőkönyvesekről, akár rétegkönyvek kiadásáról van szó, a várható kisebb forgalom miatt mindenképp szükséges anyagi támogatás a megjelentetéshez. Ennek mértéke a könyvártól függ, mert az tükrözi a kiadási költségeket. Az alábbiakbak folyószöveges, fekete-fehér könyvekre (pl. regényekre) mutatjuk a 2026-os könyvárakat és a kiadáshoz szükséges szerzői hozzájárulást.</caption>
+	<tr><th>Terjedelem</th><th>Könyvár</th><th>Szerzői hozzájárulás</th></tr>
+	<tr><td>100</td><td>2990 Ft</td><td>59.800 Ft 18 hónapon át (vagy kétszer 448.500 Ft</td></tr>
+	<tr><td>200</td><td>3990 Ft</td><td>79.800 Ft 18 hónapon át (vagy kétszer 598.500 Ft)</td></tr>
+	<tr><td>300</td><td>4990 Ft</td><td>99.800 Ft 18 hónapon át (vagy kétszer 748.500 Ft)</td></tr>
+	<tr><td>400</td><td>5490 Ft</td><td>109.800 Ft 18 hónapon át (vagy kétszer 823.500 Ft)</td></tr>
+	<tr><td>500</td><td>5990 Ft</td><td>119.800 Ft 18 hónapon át (vagy kétszer 898.500 Ft)</td></tr>
+	<tr><td>800</td><td>6990 Ft</td><td>139.800 Ft 18 hónapon át (vagy kétszer 1.048.500 Ft)</td></tr>
+	</table>
+
+  </div>
+</div>
+
+<p class="">
+	<strong>5. Korrekt jogdíj és elszámolás.</strong> Átlátható és számonkérhető feltételek, valamint 10%-os jogdíj.
+	<button class="btn btn-sm btn-outline-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseKorrektseg" aria-expanded="false" aria-controls="collapseKorrektseg">Bővebben</button>
+	</p>
+<div class="collapse" id="collapseKorrektseg">
+	<div class="mb-3">
+		Mindenről szerződést kötünk és áfás számlát adunk. A kereskedelmi árrés (ami 50-55%) és a nyomdaköltség (kb. 25%) után a kiadóhoz jutó összeget lényegében elfelezzük, így a jogdíj a könyvárra írt fogyasztói ár 10%-a. A forgalomról havonta elszámolunk emailes értesítők formájában.
+	</div>
+</div>
+
+</div>
+
+<!-- GYÍK - FAQ (accordion) -->
+<div id="gyik">
+
+<h2 class='text-success'>Gyakori kérdések a Sztorimondó könyvkiadási programról</h2>
+<p>A Sztorimondó könyvkiadási már sok éve működik, így sok releváns információt tudunk kínálni már a jelentkezés előtt is.</p>
+<!-- aria-expanded="true" és "accordion-collapse collapse show": már megnyitáskor kibontja -->
+<div class="accordion" id="faq">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+        Ki az elsőkönyves?
+      </button>
+    </h2>
+    <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Elsőkönyves üzleti szempontból az, akinek még nem volt sikerkönyve és nincs olyan olvasótábora, amire hagyatkozva a kiadó fel tudná vállalni a kiadás kockázatát.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+        Mi az a rétegkönyv?
+      </button>
+    </h2>
+    <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Olyan könyv, amelynek a témájánál fogva nincs akkora olvasótábora, hogy a kiadási költségek a bolti eladásokból megtérülhetnének. Ilyenek pl. a tudományos könyvek, a verseskötetek és a speciális témájú ismeretterjesztő kiadványok. A kiadással kapcsolatos bírálat alapja ezért nem a várható forgalom, hanem hogy számíthat-e a könyv kritikai – tudományos, irodalmi vagy szakmai – sikerre.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mindenkitkiadnake" aria-expanded="false" aria-controls="mindenkitkiadnake">
+        Mindenkit kiadnak, aki jelentkezik?
+      </button>
+    </h2>
+    <div id="mindenkitkiadnake" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Egyáltalán nem! Sajnos a jelentkezők többségét el kell utasítanunk, mert csak olyan könyvet tudunk felvállalni, ami - professzionális szerkesztés és nyomdai előkészítés után - bevihető könyvesboltba. Kiadóként nem tehetjük meg, hogy az átlagszínvonal alá menjünk, mert a kereskedők nem fogadnák többé a kiadványainkat. <strong>Az elsőkönyveseknél, valamint a szépirodalmi és rétegkönyveknél nem cél a nagy eladott példányszám, de fontos a belső értékük. Ezért csak olyan könyvet vállalunk fel, amelyekben megvan ez az érték.</strong>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#melyikkiado" aria-expanded="false" aria-controls="melyikkiado">
+        Melyik kiadónál jelenik meg a könyvem?
+      </button>
+    </h2>
+    <div id="melyikkiado" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Ha be tudjuk fogadni a kiadási programunkba, a könyv témájától függ a kiadói név. A regények, novelláskötetek, mesekönyveket a <a href='https://konyv.guru/konyv-guru-kiado-konyvei/' target='_blank' class='text-success' style='font-family: Limelight'>Könyv Guru Kiadó</a>, az ismeretterjesztő könyvek az <a href='https://adlibrum.hu/' target='_blank' class='text-success' style='font-family: Limelight'>Ad Librum Kiadó</a>, a visszaemlékezések pedig a <a href='https://szemelyestortenelem.hu/konyveink/' target='_blank' class='text-success' style='font-family: Limelight'>Személyes Történelem Kiadó</a> kínálatába kerülnek. A fentiek mind az Ad Librum Kft. kiadói nevei (imprints).
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+        Kell-e vállalkozónak lennem a kiadáshoz? Hogyan adózom a jogdíjért?
+      </button>
+    </h2>
+    <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        A könyvet a kiadó adja ki, így a kiadó a vállalkozó. Köthet vállalkozóként kiadási szerződést, de a legtöbb szerzőnknek magánszemélyként szerződünk. Ez azt is jelenti, hogy a következő évi adóbevallásában automatikusan megjelenik a jogdíj kifizetése, nem kell semmit tennie.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+        Milyen szerzői jogokat vesz át a kiadó?
+      </button>
+    </h2>
+    <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        A szerző a szerzői jogok birtokosa, ennek <em>felhasználására</em> ad korlátozott időre (5 évre) szóló felhasználási lehetőséget a kiadónak. A lehető legkevesebb felhasználási jogot kérjük: csak a magyar nyelvű könyv formátumú  (nyomtatott és ebook) kiadásra. Így a szerzőnél maradnak a jogok az idegen nyelvű fordításra, a színpadra vagy filmre  vitelre, a folytatásokra stb.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+        Le kell-e védetnem a kéziratomat?
+      </button>
+    </h2>
+    <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        A szerzői jogok automatikusan keletkeznek a mű létrehozásával, vagyis speciális bejelentés nélkül is védettség keletkezik. Ha kétségei vannak, megteheti, hogy a kéziratot valahol egy "időpecséttel" látja el (pl. valakinek elküldi emailen), hogy mindig bizonyíthassa, a mű már abban a pillanatban is létezett és az Ön birtokában volt. Természetesen fizethet is valamilyen szervezetnek ugyanezért. Egyetlen kiadó sem vár ilyesmit.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+        Kell-e a szerzői hozzájáruláson felül valamit fizetnem?
+      </button>
+    </h2>
+    <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Nem kell. Nincs semmilyen rejtett vagy utólagos költség, vagy upsale.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+        Hány példányban jelenik meg a könyvem?
+      </button>
+    </h2>
+    <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Végtelen számban, amíg van rá kereslet. Gyakori félreértés, hogy a szerzők az induló példányszámnak túlzott jelentőséget tulajdonítanak. A mai digitális nyomdákkal olyan rövid idő alatt után tudjuk nyomni a következő néhány száz példányt, hogy a kereskedelem sosem marad kielégtetlenül. Az első nyomás példányszám0 a kiajánlásaink alapján jelzett kereskedelmi igények és némi raktári tartalékot számolva 500-700 példány szokott lenni. Hába több, akár óriási a rendelkezésre álló példány, elsőkönyvestől akkor is csak egy bizonyos mennyiséget rendelnek a terjesztők.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+        Hozzá kell-e járulnom később az utánnyomásokhoz?
+      </button>
+    </h2>
+    <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Nem kell. Az eladások finanszírozzák a nyomdai és egyéb költségeket.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+        Fizetheti más az anyagi hozzájárulást?
+      </button>
+    </h2>
+    <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Ha van szponzora, aki/ami be tudja fogadni a számlánkat a kiadási előkészítésről, akkor természetesen vele is tudunk szerződést kötni a költségekre. Csak könyvkiadásról vagy (ha erről egyezzünk meg) reklámról adunk számlát, az igazságnak megfelelően. Emellett a szerzővel kötünk felhasználási szerződést, vagyis a szponzor nem kap jogokat a kiadást illetően.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+        Szerkesztik-e a könyvemet? Milyen mértékben?
+      </button>
+    </h2>
+    <div id="collapse11" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Nem adunk ki olyan könyvet, amit a kiadó által megbízott olvasószerkesztő át nem javított. Az olvasószerkesztő (más néven irodalmi szerkesztő) nem írja a történetet újra (ezt a szerző sem kérheti), hanem a helyesírási, gépelési, megfogalmazási (beleértve a stílusbeli) hibákat javítja.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+        Beleszólhatok-e a borító készítésébe?
+      </button>
+    </h2>
+    <div id="collapse12" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Mindig számítunk a szerző javaslataira a borítóillusztrációt illetően, a hátszöveg első változatát pedig kifejezetten tőle várjuk. Azonban a kiadó ügyfele az olvasó, nem az író (vagy akár egy szponzor). Ennek megfelelően a könyvet arra a versenyre készítjük fel, ami a könyvesboltban vár rá. Ez értendő a borítóra is, amelynek elkészítésében a kiadó a reménybeli olvasót képviseli, és igyekszik - a szerző részvételével - versenyképes borítót készíteni.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+        Tulajdonképpen mit értünk kézirat alatt?
+      </button>
+    </h2>
+    <div id="collapse13" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        A kézirat a könyv szerzői változata, ami a kiadói munkában a nyomdára előkészítés kiindulópontja. Mindig elektronikus szöveg (plusz képek és egyebek, szintén digitálisan). Nem kézzel (vagy írógéppel) írt papírlapok.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+        Megnézhetem-e a könyvem nyomását?
+      </button>
+    </h2>
+    <div id="collapse14" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Előzetes egyeztetéssel a nyomdák szívesen fogadják a szerzőt, amikor a könyvét nyomják. Értelemszerűen a szerzőnek kell alkalmazkodnia a nyomdai időbeosztáshoz.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+        Mennyi idő alatt lesz kézbe fogható a könyvem?
+      </button>
+    </h2>
+    <div id="collapse15" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        A szerződéskötéstől számítva jellemzően 6-8 héten belül nyomdába kerülnek a könyvek. A nyomdai átfutás 2-3 hét. Tapasztalataink szerint ennél lassabban csak akkor történnek a dolgok, ha a szerző több időt igényel, pl. az alaposabb átnézéshez (aminek amúgy örülünk).
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+        Kötelező-e részt vennem a könyv népszerűsítésében?
+      </button>
+    </h2>
+    <div id="collapse17" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Az író személyiségétől, energiáitól, szabadidejétől és egészségi állapotától függ, hogy az - amúgy nyilvánvalóan érdekében álló - marketingben részt kíván-e venni. Szerződési értelemben a szerző kizárólag a kézirat (és csatolt részei) leadására, a nyomdába adási engedély (imprimatúra) megadására és a szerzői hozzájárulás megfizetésére kötelezett.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+        Választhatok-e álnevet?
+      </button>
+    </h2>
+    <div id="collapse18" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        A szerző maga dönti el, hogyan szeretne megjelenni a könyve címlapján. Igyekszünk tanácsot adni, de a felnőttkori identitását mindenki maga választja.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
+        Lehet-e több a jogdíj?
+      </button>
+    </h2>
+    <div id="collapse20" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        A kereskedelem 50-55%, a nyomdaköltség 25%, a logisztikai költségek (a könyve szállítása és raktározása)levonása után marad kb. 20%. Ezt felezzük, a kiadó és a szerző. A kiadónál maradó rész sem profit, mert ebből fedezzük a kereskedelmis kolléga bérét és az általános kiadói költségeket (pl. ennek a weblapnak létrehozását és fenntartását, amit most olvas).
+        A másik probléma a magasabb jogdíjjal, hogy nem tudjuk a könyvét a tematikus akciókba betenni. Az első év után ezek hozzák a forgalom jó részét, de árengedményt kell adni. Magas jogdíj mellett ez egy ponton túl lehetetlen.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
+        Kapok-e tiszteletpéldányt? És ha többre van szükségem?
+      </button>
+    </h2>
+    <div id="collapse21" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        20 szerzői példányt biztosítunk. Később 30-50%-os kedvezménnyel tud vásárolni a könyvéből, példányszámtól függően.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
+        Kötnek-e szerződést, adnak-e számlát?
+      </button>
+    </h2>
+    <div id="collapse22" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Többszörösen egyeztetett, jogi maszlagtól mentes, írásos szerződést kötünk mind a szerzöi jogainak felhasználására, mind az anyagi hozzájárulására. Emailen részletesen egyeztetünk az aláírás előtt. Azonnali aláírásra nincs mód, azt várjuk a szerzőinktől, hogy alaposan gondolják végig, mire vállalkoznak. A befizetésekre előzetesen számlát küldünk, addig nem is utalhat nekünk. A jogdíj kifizetése szintén írásos adminisztráció után történik.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
+        Megjelentetnek-e tudományos közleményeket?
+      </button>
+    </h2>
+    <div id="collapse19" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+				A kiadó örömmel ad ki tudományos monográfiákat, pl. szakkönyvvé formált doktori disszertációkat. A kiadói csoporton belül az Ad Librum Kiadó felelős a tudományos (tudományos ismeretterjesztő) könyvek megjelentetéséért, és ekként számos jogi és politikatudományi monográfiát adott ki. A kiadó vezetője tudományos fokozattal rendelkező kutató.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse23" aria-expanded="false" aria-controls="collapse23">
+        Kiadnak-e verseket?
+      </button>
+    </h2>
+    <div id="collapse23" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+				Egy egész polcnyi verseskötetet adtun ki az idők során. Azonban a kortárs irodalomra olyan kicsi a kereslet, hogy csak olyanok verseskötetét vállaljuk el, akik folyóirat publikációkkal már nevet szereztek az irodalomban, vagy be tudnak mutatni egy olyan szerzői marketingtervet, amivel jó eséllyel nagyobb példányszámban is eladható lesz a kötet. Sajnos ezeknek a feltételnek nem könnyű megfelelni.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse25" aria-expanded="false" aria-controls="collapse25">
+        Ha az emlékeimet írtam meg, alkalmas-e nekem a Sztorimondó?
+      </button>
+    </h2>
+    <div id="collapse25" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Egész kiadói nevet (imprint) tartunk fenn a memoárokra, ez a Személyes Történelem Kiadó. Célja magántörténelmek kiadása, olyan élettörténeteké, amelyeken keresztül az elmúlt korokat megérthetik a később generációk.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+        A szerződéskötéshez meg kell-e jelennem személyesen?
+      </button>
+    </h2>
+    <div id="collapse16" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Nem szükséges. Jellemzően postán vagy elektronikusan cseréljük ki a szerződést. Ha viszont szeretne, munkaidőben könnyen találunk időpontot, amikor a kiadói irodába személyesen aláírhatjuk a dokumentumot (és kicsit beszélgethetünk a kiadás menetéről).
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse24" aria-expanded="false" aria-controls="collapse24">
+        Kötnek-e szerződést olyannal, aki nem Magyarországon él?
+      </button>
+    </h2>
+    <div id="collapse24" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Minden negyedik szerzőnk külföldön él, állandóan vagy ideiglenesen. Semmi akadálya a szerződéskötésnek. A szerzői hozzájárulásról is bármilyen pénznemben tudunk számlát kiállítani. A kiadási folyamat teljesen emailen folyik, így helyfüggetlen.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse27" aria-expanded="false" aria-controls="collapse27">
+        Érdemes-e elküldeni a jelentkezésemet úgy, hogy nem akarok/tudok a kiadás költségeibe beszállni?
+      </button>
+    </h2>
+    <div id="collapse27" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Ha nincs előre látható olvasótábora a könyvnek (a szerző még kipróbálatlan vagy a könyv célközönsége kicsi), kizárólag ezt a konstrukciót tudjuk ajánlani. Vagyis nem érdemes jelentkeznie, mert biztosan nem tudunk kiadási szerződést kötni.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse28" aria-expanded="false" aria-controls="collapse28">
+        Mi történik, ha most jelentkezem az alábbi űrlapon a Sztorimondó programba?
+      </button>
+    </h2>
+    <div id="collapse28" class="accordion-collapse collapse" data-bs-parent="#faq">
+      <div class="accordion-body">
+        Amennyiben az űrlapot érdemben kitöltötte és a könyvjavaslat elvileg belefér kiadási irányainkba, jellemzően egy munkanapon belül válaszolunk. Küldünk egy kérdőívet, amely a könyvről és a szerzői elképzelésekről kér információkat. Ekkor lesz alkalma a kéziratot is elküldeni. (Ha nem szeretné az egész kéziratot megmutatni, vagy még nincs teljesen kész, ebben a fázisban elegendő egy jellemző részlet is.) Ezek alapján döntünk, hogy teszünk-e ajánlatot kiadási szerződésre.
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div> <!-- GYÍK vége -->
+
+<!-- jelentkezési űrlap -->
+<div id='contactform'>
+
+	<div>
+		<h2 class='text-success mt-4'>Érdeklődés könyv kiadásáról</h2>
+		<p>Az alábbi űrlapon tudja jelezni az érdeklődését a kiadási program iránt. A jelentkezés kötelezettségmentes, de feltételezi, hogy a fenti feltételeket megismerte és adott esetben vállalná is. Ha vissza akar ugorni a szerzői hozzájárulásra vonatkozó táblázatra, <a href='#szerzoihozzajarulas'>kattintson ide!</a> (A <em>Bővebben</em> gomb megnyitja.)</p>
+	</div>
+
+<form action='https://konyvkiadasa.hu/forms/sztorimondo_processor.php' method='POST' id='sztorimondoform'>
+	<div class="mb-3">
+		<label class="form-label text-success" for="konyvcim">Mi a könyve címe?</label>
+		<input type="text" class="form-control control-label border-success" name="konyvcim" id="konyvcim">
+	</div>
+	<div class="mb-3">
+		<label for="leiras" class="form-label text-success">Miről szól a könyve?</label>
+		<textarea class="form-control control-label border-success" rows="3" placeholder="Mondjon pár mondatot a könyvéről!" name="leiras" id="leiras"></textarea>
+	</div>
+	<div class="input-group">
+		<label class="col-sm-2 control-label text-success" for="mufaj">Kategória</label>
+		<select class="form-select control-label border-success" aria-label="Milyen műfajba sorolja?" name="mufaj" id="mufaj">
+			<option selected>Milyen műfajba sorolja?</option>
+			<option value="szórakoztató irodalom (romantikus, fantasy, krimi stb.)">szórakoztató irodalom (romantikus, fantasy, krimi stb.)</option>
+			<option value="szépirodalmi regény">szépirodalmi regény</option>
+			<option value="novella">novella</option>
+			<option value="verseskötet">verseskötet</option>
+			<option value="emlékirat, memoár">emlékirat, memoár</option>
+			<option value="tudományos/ismeretterjesztő">tudományos/ismeretterjesztő</option>
+			<option value="más">más</option>
+		</select>
+	</div>
+	<div class="mb-3">
+		<label for="nev" class="form-label text-success">Az Ön neve:</label>
+		<input type="text" class="form-control control-label border-success" name="nev" id="nev">
+	</div>
+	<div class="mb-3">
+		<label for="email" class="form-label text-success">Email címe</label>
+		<input type="email" class="form-control control-label border-success" placeholder="pl. nev@google.com - Nagyon fontos a pontosság, különben nem tudunk Önnel kapcsolatba lépni!" name="email" id="email">
+	</div>
+	<div class="mb-3">
+		<label for="tel" class="form-label text-success">Telefonszám:</label>
+		<input type="text" class="form-control control-label border-success" name="tel" id="tel">
+	</div>
+	<div class="mb-3">
+		<label for="megjegyzes" class="form-label text-success">Eddigi írói tevékenysége és bármilyen egyéb megjegyzés:</label>
+		<textarea class="form-control control-label border-success" rows="2" placeholder="" name="megjegyzes" id="megjegyzes"></textarea>
+	</div>
+	<div class="form-check mb-3">
+		<label class="form-check-label">Az űrlap kitöltése előtt a Sztorimondó programról szóló tájékoztatást végigolvastam, és tudomásul veszem, hogy a könyvem esetleges kiadása az anyagi hozzájárulásomat igényli. (Ha így van, kérjük ikszelje be a négyzetet!)</label>
+		<input class="form-check-input control-label border-success" type="checkbox" name="remember">
+	</div>
+	<div class="input-group">
+		<label for='antispam' class='control-label text-success'>Mennyi hat plusz hat? (számmal)</label>
+		<input type='text' class="form-control control-label border-success" id='antispam' name='antispam' />
+	</div>
+	<div>
+		<button type="submit" class="btn btn-success btn-block" style="padding: 16px 32px; margin-top: 20px">Vegyék fel velem a kapcsolatot!</button>
+	</div>
+</form>
+
+</div> <!-- jelentkezési rovat vége -->
+
+<!-- Link a szolgáltatásokhoz -->
+<div class='row justify-content-center my-5'>
+	<p class='col-6 h1 text-center'>
+		Vagy megpróbálja maga kiadni?<br/>
+		<a href='../szolgaltatasok/' style='font-family: Limelight, sans-serif;' role='button' class='btn btn-warning btn-lg'>Nem hagyunk magadra!</a>
+	</p>
+</div>
+
+
+
+<!-- Carousel Bottom -->
+<div id="boritoklent" class="carousel slide mx-auto" data-bs-ride="carousel" style="width: 200px; height: 338px;">
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="../assets/Kertesz-Viktor_Sikba-zart-ter--small.webp" alt="Kertesz Viktor: Síkba zárt tér (Ad Librum, 2025) borítókép" class="d-block w-100">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="../assets/Lizy-Smith_Profilozo--small.webp" alt="Lizy Smith: Profilozó (Könyv Guru, 2025) borítókép" class="d-block w-100">
+    </div>
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="../assets/Magashegyi-Jozsef_1160--small.webp" alt="Magashegyi József: 1160 (Könyv Guru, 2025) borítókép" class="d-block w-100">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="../assets/H-P-Bigest_Isten-urhajoja--small.webp" alt="H.P. Bigest: Isten űrhajója (Könyv Guru, 2026) borítókép" class="d-block w-100">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#boritoklent" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#boritoklent" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<footer class='mt-5 mb-2'>
+<hr/>
+	<p class='small'>
+		&copy; 2026. A KönyvKiadása.hu oldal fenntartója az <em>Ad Librum Kft.</em> |	E-mail: info@adlibrum.hu | Tel.: (20) 510-1558 (ügyfélfogadási időben: munkanapokon 10 és 14 óra között) | Székhely, számlázási cím, postacím és iroda: 1193 Budapest, Klapka u. 26. | Adószám: 14093818-2-43 | EU adószám: HU14093818 | Cégjegyzékszám: 01-09-888596 | Adatkezelés nyilvántartási szám: NAIH-104137/2016.
+	</p>
+</footer>
+
+<script src="../assets/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
