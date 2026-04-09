@@ -666,9 +666,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <footer class='mt-5 mb-2'>
 <hr/>
 	<p class='small'>
-		&copy; 2026. A KönyvKiadása.hu oldal fenntartója az <em>Ad Librum Kft.</em> |	E-mail: info@adlibrum.hu | Tel.: (20) 510-1558 (ügyfélfogadási időben: munkanapokon 10 és 14 óra között) | Székhely, számlázási cím, postacím és iroda: 1193 Budapest, Klapka u. 26. | Adószám: 14093818-2-43 | EU adószám: HU14093818 | Cégjegyzékszám: 01-09-888596 | Adatkezelés nyilvántartási szám: NAIH-104137/2016.
+		&copy; 2026. A KönyvKiadása.hu oldal fenntartója az <em>Ad Librum Kft.</em> |	E-mail: <a href="#" id="email-link">info@adlibrum.hu</a> | Tel.: (20) 510-1558 (ügyfélfogadási időben: munkanapokon 10 és 14 óra között) | Székhely, számlázási cím, postacím és iroda: 1193 Budapest, Klapka u. 26. | Adószám: 14093818-2-43 | EU adószám: HU14093818 | Cégjegyzékszám: 01-09-888596 | Adatkezelés nyilvántartási szám: NAIH-104137/2016.
 	</p>
 </footer>
+
+<script>
+  const u = 'info';
+  const d = 'adlibrum';
+  const t = 'hu';
+  const el = document.getElementById('email-link');
+  el.href = 'mailto:' + u + '@' + d + '.' + t;
+  el.textContent = u + '@' + d + '.' + t;
+</script>
 
 <script src="../assets/bootstrap.bundle.min.js"></script>
 
